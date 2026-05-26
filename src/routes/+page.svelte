@@ -7,7 +7,8 @@
 	}
 
 	const pages: Page[] = [
-		{ name: "Main-roulette", href: resolve("/main-roulette") },
+		{ name: "Roulette king", href: resolve("/roulette-king") },
+		{ name: "Roulette", href: resolve("/roulette") },
 	];
 </script>
 

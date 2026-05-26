@@ -6,8 +6,8 @@ const config = {
 		adapter: adapter(),
 		alias: { $cmp: "src/components" },
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/widgets' : ''
-		}
+			base: process.env.NODE_ENV === "production" ? "/widgets" : "",
+		},
 	},
 	compilerOptions: { runes: true },
 };
