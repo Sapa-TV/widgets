@@ -50,7 +50,7 @@
 							<img
 								alt="Персонаж Sapa TV"
 								class="avatar-img avatar-default"
-								src={asset("/avatar.png")}
+								src={asset("/avatar.jpg")}
 							/>
 							<img
 								alt="Персонаж Sapa TV"
