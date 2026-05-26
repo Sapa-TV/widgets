@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { resolve } from "$app/paths";
+	import { resolve, asset } from "$app/paths";
 
 	interface Page {
 		name: string;
@@ -138,7 +138,7 @@
 						<img
 							alt="Персонаж Sapa TV"
 							class="w-56 sm:w-80 md:w-96 h-auto rounded-xl object-cover"
-							src="/avatar.png"
+							src={asset("/avatar.png")}
 						/>
 					</div>
 				</div>

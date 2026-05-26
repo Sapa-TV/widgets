@@ -1,10 +1,12 @@
 <script lang="ts" module>
+	import { asset } from "$app/paths";
+
 	export const VARIANT_IMG_LINKS = {
-		common: "/roulette/common.png",
-		uncommon: "/roulette/uncommon.png",
-		rare: "/roulette/rare.png",
-		legendary: "/roulette/legendary.png",
-		mythic: "/roulette/mythic.png",
+		common: asset("/roulette/common.png"),
+		uncommon: asset("/roulette/uncommon.png"),
+		rare: asset("/roulette/rare.png"),
+		legendary: asset("/roulette/legendary.png"),
+		mythic: asset("/roulette/mythic.png"),
 	};
 </script>
 

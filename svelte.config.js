@@ -7,6 +7,7 @@ const config = {
 		alias: { $cmp: "src/components" },
 		paths: {
 			base: process.env.BASE_PATH ?? (process.env.NODE_ENV === "production" ? "/widgets" : ""),
+			relative: true,
 		},
 	},
 	compilerOptions: { runes: true },

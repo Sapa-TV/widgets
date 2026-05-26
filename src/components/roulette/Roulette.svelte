@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { asset } from "$app/paths";
 	import Slot from "./Slot.svelte";
 
 	function run() {
@@ -9,8 +10,8 @@
 <button onclick={run}>run</button>
 
 <div class="roulette">
-	<img class="track" src="/roulette/track.png" alt="Roulette track" />
-	<img class="arrow" src="/roulette/arrow.png" alt="Roulette arrow" />
+	<img class="track" src={asset("/roulette/track.png")} alt="Roulette track" />
+	<img class="arrow" src={asset("/roulette/arrow.png")} alt="Roulette arrow" />
 	<div class="track-wrapper">
 		<div class="track-scroller animate">
 			<Slot variant="common" />
