@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+	--color-on-tertiary: #ffeff0;
+	--color-surface-container: #cfecff;
+	--color-surface-container-lowest: #ffffff;
+	--color-primary-fixed-dim: #00c0ea;
+	--color-tertiary: #b60051;
+	--color-tertiary-dim: #a00047;
+	--color-secondary-dim: #5819db;
+	--color-outline-variant: #87b3cd;
+	--color-inverse-surface: #001019;
+	--color-outline: #507c94;
+	--color-surface-bright: #eff8ff;
+	--color-on-tertiary-fixed-variant: #770033;
+	--color-inverse-on-surface: #77a3bc;
+	--color-secondary: #652fe7;
+	--color-on-secondary: #f7f0ff;
+	--color-on-surface-variant: #346178;
+	--color-primary-container: #00cffc;
+	--color-on-error-container: #570008;
+	--color-surface-tint: #00647b;
+	--color-surface-container-high: #c2e8ff;
+	--color-tertiary-container: #ff8fa9;
+	--color-primary: #00647b;
+	--color-on-secondary-fixed: #3b00a0;
+	--color-tertiary-fixed: #ff8fa9;
+	--color-surface-container-highest: #b5e3ff;
+	--color-on-background: #003346;
+	--color-on-secondary-container: #5000d2;
+	--color-on-error: #ffefee;
+	--color-on-primary-fixed-variant: #004a5c;
+	--color-surface-container-low: #e2f3ff;
+	--color-background: #eff8ff;
+	--color-on-primary: #e2f6ff;
+	--color-on-primary-container: #004050;
+	--color-on-surface: #003346;
+	--color-surface-dim: #9fdcff;
+	--color-error: #b31b25;
+	--color-surface-variant: #b5e3ff;
+	--color-surface: #eff8ff;
+	--color-inverse-primary: #00cffc;
+	--color-on-tertiary-container: #66002b;
+	--color-primary-dim: #00576c;
+	--color-secondary-fixed-dim: #cabaff;
+	--color-error-dim: #9f0519;
+	--color-tertiary-fixed-dim: #ff769b;
+	--color-on-primary-fixed: #002a35;
+	--color-on-secondary-fixed-variant: #591bdc;
+	--color-secondary-fixed: #d8caff;
+	--color-on-tertiary-fixed: #380014;
+	--color-primary-fixed: #00cffc;
+	--color-error-container: #fb5151;
+	--color-secondary-container: #d8caff;
+
+	--font-family-headline: "Manrope", sans-serif;
+	--font-family-body: "Inter", sans-serif;
+	--font-family-label: "Inter", sans-serif;
+
+	--radius-default: 1rem;
+	--radius-lg: 2rem;
+	--radius-xl: 3rem;
+}
