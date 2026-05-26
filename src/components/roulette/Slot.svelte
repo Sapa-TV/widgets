@@ -23,4 +23,10 @@
 </div>
 
 <style>
+	div {
+		flex-shrink: 0;
+	}
+	img {
+		object-fit: none;
+	}
 </style>
