@@ -313,22 +313,6 @@
 		}
 	}
 
-	.coming-soon {
-		font-size: 1.125rem;
-		font-weight: 500;
-		color: rgba(52, 97, 120, 0.8);
-		line-height: 1.625;
-		max-width: 28rem;
-		margin: 0 auto;
-		opacity: 0;
-	}
-
-	@media (min-width: 768px) {
-		.coming-soon {
-			font-size: 1.25rem;
-		}
-	}
-
 	.links {
 		display: flex;
 		flex-direction: column;
@@ -390,10 +374,5 @@
 
 	.link-yt:hover {
 		background: #cc0000;
-	}
-
-	.icon {
-		width: 1.5rem;
-		height: 1.5rem;
 	}
 </style>

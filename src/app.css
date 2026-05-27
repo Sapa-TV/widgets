@@ -1,6 +1,4 @@
-@import "tailwindcss";
-
-@theme {
+:root {
 	--color-on-tertiary: #ffeff0;
 	--color-surface-container: #cfecff;
 	--color-surface-container-lowest: #ffffff;
@@ -60,4 +58,22 @@
 	--radius-default: 1rem;
 	--radius-lg: 2rem;
 	--radius-xl: 3rem;
+}
+
+@font-face {
+	font-family: "VAG Rounded Next";
+	src: url("VAG Rounded Next/VAG Rounded Next ExtraBlack.ttf")
+		format("truetype");
+	font-weight: 950;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: transparent;
+	font-family: "VAG Rounded Next";
 }
