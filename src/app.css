@@ -62,7 +62,7 @@
 
 @font-face {
 	font-family: "VAG Rounded Next";
-	src: url("VAG Rounded Next/VAG Rounded Next ExtraBlack.ttf")
+	src: url("/VAG Rounded Next/VAG Rounded Next ExtraBlack.ttf")
 		format("truetype");
 	font-weight: 950;
 }
