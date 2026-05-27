@@ -1,0 +1,29 @@
+name: Deploy to VPS
+
+on:
+  workflow_call:
+    secrets:
+      SSH_DEPLOY_KEY:
+        required: true
+      HOST:
+        required: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+          path: build/
+
+      - uses: easingthemes/ssh-deploy@v6.0.0
+        with:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+          REMOTE_HOST: ${{ secrets.HOST }}
+          REMOTE_USER: "deploy"
+          SOURCE: "build/"
+          TARGET: "/var/www/widgets"
+          ARGS: "-rlgoDzvc --delete"
